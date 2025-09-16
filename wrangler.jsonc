@@ -10,6 +10,7 @@
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "enabled": true
+    "destinations": ["honeycomb-tracing"]
   },
   "kv_namespaces": [
     {
