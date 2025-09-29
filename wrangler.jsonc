@@ -9,6 +9,7 @@
   },
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
+    "enabled": true,
     "traces": {
       "enabled": true,
       "destinations": ["honeycomb-tracing"]
